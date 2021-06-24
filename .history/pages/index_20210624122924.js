@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 
 export default function Home({ session }) {
-  if (!session) return <Login />;
+  if (!session) return
 
   return (
     <div>
