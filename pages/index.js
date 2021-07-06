@@ -4,7 +4,7 @@ import { getSession } from 'next-auth/client';
 import Login from '../components/Login';
 
 export default function Home({ session }) {
-  if (!session) return <Login />;
+ if (!session) return <Login />;
 
   return (
     <div>
